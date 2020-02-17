@@ -11,7 +11,7 @@ Programa nuskaitanti studento duomenis, paskaičiuoja galutinį studento pažym�
 3. Vartotojas pasirenka, kokių būdu bus pateikiami namų darbų ir egzaminų rezultatai (atsitiktinai generuojant ar įvedant pačiam vartotojui) 
 4. Apskaiciuojamas galutinis rezultatas (apskaičiuojant namų darbų balų vidurkį ir medianą)
 
-## Įdiegimo instrukcija
+## Įdiegimo ir naudojimo instrukcija 
 Norint paleisti programos kodą reikia:
 * Atsisiųsti bet kurį iš pateiktų programos kodų
   <br />[releases](https://github.com/gabrielyyytte/2uzd/releases)
