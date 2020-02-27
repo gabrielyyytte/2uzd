@@ -3,7 +3,7 @@ Programa nuskaitanti studento duomenis, paskaičiuoja galutinį studento pažym�
 
 ## Releases
  <br />[v0.1](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.1) Versija su dinamine atmintimi
- <br />[v0.2](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.11) Versija su vektoriais
+ <br />[v0.11](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.11) Versija su vektoriais
  
  Abi programos atlieka tą pačią funkciją
 1. Vartotojas pasirenka, kelių studentu duomenys bus naudojami programoje
