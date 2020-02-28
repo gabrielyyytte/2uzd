@@ -3,14 +3,15 @@ Programa, nuskaitanti vartotojo įvedamus arba iš failo nuskaitomus duomenis ir
 
 ## Releases
 * Programa nuskaitanti studento duomenis, paskaičiuoja galutinį studento pažymį naudojant vidurkį ir medianą.
- <br />[v0.1](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.1) Versija su dinamine atmintimi
- <br />[v0.11](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.11) Versija su vektoriais
-* Programa apskaiciuojanti galutinius rezultatus pagal vartotojo suvestus, nuskaitytus iš failo arba atsitiktinai sugeneruotus duomenis.
- <br />[v0.2](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.2geras) 
-* Programa apskaiciuojanti galutinius rezultatus pagal vartotojo suvestus, perskaitytus iš failo arba atsitiktinai sugeneruotus duomenis, kurioje funkcijos ir struktūra yra laikomi atskiruose antraštiniuose failuose, taip pat panaudotos išimtys
- <br />[v0.2](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.3)
+ <br />[v0.1](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.1) versija su dinamine atmintim
+ <br />[v0.11](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.11) versija su vektoriais
  
- ## Vartotojo veiksmų seka:
+* <br />[v0.2](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.2geras) Programa apskaiciuojanti galutinius rezultatus pagal vartotojo suvestus, nuskaitytus iš failo arba atsitiktinai sugeneruotus duomenis.
+ 
+*  <br />[v0.2](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.3) Programa apskaiciuojanti galutinius rezultatus pagal vartotojo suvestus, perskaitytus iš failo arba atsitiktinai sugeneruotus duomenis, kurioje funkcijos ir struktūra yra laikomi atskiruose antraštiniuose failuose, taip pat panaudotos išimtys
+
+ 
+## Vartotojo veiksmų seka:
 
 1.  Vartotojas pasirenka ar duomenys bus įvedami ar skaitomi iš failo
 1.1 Pasirinkus savarankišką ivedimą jis turi nurodyti kelių mokinių duomenys bus naudojami programoje
