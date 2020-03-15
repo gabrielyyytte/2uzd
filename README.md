@@ -22,7 +22,7 @@ Namų darbų kiekis: 5
 | 10000000 | 291.395s | 486.684s | 339.999s | 237.5145s | 
 
 #### vO.5
-**Duomenų skaitymas iš failų**
+Duomenų skaitymas iš failų
 | Įrašų kiekis | std::vector | std::deque | std::list |
 |--|--|--|--|
 | 1000 | 0.043547s | 0.0486927s | 0.0490872s | 
@@ -31,7 +31,7 @@ Namų darbų kiekis: 5
 | 1000000 | 45.9048s | 96.325s | 40.7198s | 
 | 10000000 | 486.684s | 502.214s | 561.485s |
 
- **Duomenų rūšiavimas į dvi kategorijas:**
+ Duomenų rūšiavimas į dvi kategorijas:
 | Įrašų kiekis | std::vector | std::deque | std::list |
 |--|--|--|--|
 | 1000 | 0.0308996s | 0.103681s | 0.0089471s |
