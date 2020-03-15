@@ -10,7 +10,7 @@ Programa, nuskaitanti vartotojo įvedamus arba iš failo nuskaitomus duomenis ir
 *  <br />[v0.4](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.4) Programa, kurioje yra pridėtas naujų duomenų failų generavimas ir šių duomenų rūšiavimas pagal galutinį balą į du atskirus .txt failus (jei galutinis balas >=5.0 duomenys išspausdinami į failą "kietiakai.txt", jei galutinis balas < 5.0 duomenys išspausdinami į failą "silpnieji.txt"). 
 ### Spartos analizė
 Įrangos spec.: Intel(R) Core(TM) i7-8550U CPU @ 1.80 GHz, 8 GB RAM, SSD
-**vO.4**
+#### vO.4
 Namų darbų kiekis: 5
 
 | Įrašų kiekis | Generavimas | Skaitymas | Studentų rūšiavimas | Išvedimas į naujus failus| 
@@ -21,10 +21,10 @@ Namų darbų kiekis: 5
 | 1000000 | 28.2486s | 45.9048s | 38.8148s | 26.3797s |
 | 10000000 | 291.395s | 486.684s | 339.999s | 237.5145s | 
 
-**vO.5**
+#### vO.5
 **Duomenų skaitymas iš failų**
 | Įrašų kiekis | std::vector | std::deque | std::list |
-|--|--|--|--|--|
+|--|--|--|--|
 | 1000 | 0.043547s | 0.0486927s | 0.0490872s | 
 | 10000 | 0.437449s | 0.46615s | 0.406974s |
 | 100000 | 4.29333s  | 4.75128s | 4.11859s | 
@@ -32,8 +32,8 @@ Namų darbų kiekis: 5
 | 10000000 | 486.684s | 502.214s | 561.485s |
 
  **Duomenų rūšiavimas į dvi kategorijas:**
- | Įrašų kiekis | std::vector | std::deque | std::list |
-|--|--|--|--|--|
+| Įrašų kiekis | std::vector | std::deque | std::list |
+|--|--|--|--|
 | 1000 | 0.0308996s | 0.103681s | 0.0089471s |
 | 10000 | 0.282487s | 0.764503s | 0.079176s |
 | 100000 |  3.19421s  | 7.77904s | 2.9841s |
