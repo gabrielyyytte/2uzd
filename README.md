@@ -12,7 +12,7 @@ Programa, nuskaitanti vartotojo įvedamus arba iš failo nuskaitomus duomenis ir
  
 ### Spartos analizė
 Įrangos spec.: Intel(R) Core(TM) i7-8550U CPU @ 1.80 GHz, 8 GB RAM, SSD
-#### vO.4
+#### v0.4
 Namų darbų kiekis: 5
 
 | Įrašų kiekis | Generavimas | Skaitymas | Studentų rūšiavimas | Išvedimas į naujus failus| 
@@ -23,7 +23,7 @@ Namų darbų kiekis: 5
 | 1000000 | 28.2486s | 45.9048s | 38.8148s | 26.3797s |
 | 10000000 | 291.395s | 486.684s | 339.999s | 237.5145s | 
 
-#### vO.5
+#### v0.5
 Duomenų skaitymas iš failų
 | Įrašų kiekis | std::vector | std::deque | std::list |
 |--|--|--|--|
