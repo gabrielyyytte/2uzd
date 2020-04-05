@@ -27,7 +27,7 @@ Duomenų skaitymas iš failų su std::vector
 
 
  Duomenų rūšiavimas į dvi kategorijas su std::vector
-| Įrašų kiekis |1 strategija | 2 strategija | 
+| Įrašų kiekis |2 strategija | 1 strategija | 
 |--|--|--|
 | 1000 | 0.0019991s | 0.0038603s | 
 | 10000 | 0.0218584s | 0.0365537s | 
