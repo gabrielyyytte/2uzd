@@ -13,8 +13,7 @@ Programa, nuskaitanti vartotojo įvedamus arba iš failo nuskaitomus duomenis ir
  
 #### v1.0
 Įrangos spec.: Intel(R) Core(TM) i7-8565U CPU @ 1.80 GHz, 16 GB RAM, SSD
-* STRATEGIJOS
-v0.5 programavoje naudojau 2 strategiją, išbandžius 1 strategiją pamačiau, kad su ja programa veikia žymiai greičiau, tačiau nuo 1mln failo rūšiavimas greičiau vyksta naudojant 2 strategiją.
+* v0.5 programavoje naudojau 2 strategiją, išbandžius 1 strategiją pamačiau, kad su ja programa veikia žymiai greičiau, tačiau nuo 1mln failo rūšiavimas greičiau vyksta naudojant 2 strategiją.
 
 
 Duomenų skaitymas iš failų su std::vector
