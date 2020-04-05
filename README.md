@@ -9,11 +9,39 @@ Programa, nuskaitanti vartotojo įvedamus arba iš failo nuskaitomus duomenis ir
 *  <br />[v0.3](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.3) Programa apskaiciuojanti galutinius rezultatus pagal vartotojo suvestus, perskaitytus iš failo arba atsitiktinai sugeneruotus duomenis, kurioje funkcijos ir struktūra yra laikomi atskiruose antraštiniuose failuose, taip pat panaudotos išimtys
 *  <br />[v0.4](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.4) Programa, kurioje yra pridėtas naujų duomenų failų generavimas ir šių duomenų rūšiavimas pagal galutinį balą į du atskirus .txt failus (jei galutinis balas >=5.0 duomenys išspausdinami į failą "kietiakai.txt", jei galutinis balas < 5.0 duomenys išspausdinami į failą "silpnieji.txt"). 
 *  <br /> [v0.5](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.51) Šioje programos versijoje testuojami trys skirtingi konteineriai: std::vector <Student>, std::deque <Student> bei std::list <Student>, ir kokią įtaką jų pritaikymas daro programos veikimo spartai
-*  <br /> [v1.0](https://github.com/gabrielyyytte/2uzd/releases/tag/v1.0)
+*  <br /> [v1.0](https://github.com/gabrielyyytte/2uzd/releases/tag/v1.0) Galutinė programos versija padaryta su dviem strategijom ir algoritmais
  
-### Spartos analizė
-Įrangos spec.: Intel(R) Core(TM) i7-8550U CPU @ 1.80 GHz, 8 GB RAM, SSD
+#### v1.0
+Įrangos spec.: Intel(R) Core(TM) i7-8565U CPU @ 1.80 GHz, 16 GB RAM, SSD
+* STRATEGIJOS
+v0.5 programavoje naudojau 2 strategiją, išbandžius 1 strategiją pamačiau, kad su ja programa veikia žymiai greičiau, tačiau nuo 1mln failo rūšiavimas greičiau vyksta naudojant 2 strategiją.
+
+
+Duomenų skaitymas iš failų su std::vector
+| Įrašų kiekis | 2 strategija | 1 strategija | 
+|--|--|--|
+| 1000 | 0.0771263s | 0.0193223s | 
+| 10000 | 1.5453s | 0.193211s | 
+| 100000 | 10.9609s  | 2.14828s 
+| 1000000 | 54.6119s | 22.9748s | 
+| 10000000 | 391.104s | 237.657s | 
+
+
+ Duomenų rūšiavimas į dvi kategorijas su std::vector
+| Įrašų kiekis |1 strategija | 2 strategija | 
+|--|--|--|
+| 1000 | 0.0019991s | 0.0038603s | 
+| 10000 | 0.0218584s | 0.0365537s | 
+| 100000 |  0.492139s  | 0.323463s | 
+| 1000000 | 2.82659s | 4.16703s | 
+| 10000000 | 31.3396s | 53.7386s | 
+
+* Algoritmus jau naudojau v0.5 versijoje todėl jų nebepridėjau.
+
+
 #### v0.4
+Įrangos spec.: Intel(R) Core(TM) i7-8550U CPU @ 1.80 GHz, 8 GB RAM, SSD
+
 Namų darbų kiekis: 5
 
 | Įrašų kiekis | Generavimas | Skaitymas | Studentų rūšiavimas | Išvedimas į naujus failus| 
@@ -25,6 +53,8 @@ Namų darbų kiekis: 5
 | 10000000 | 291.395s | 486.684s | 339.999s | 237.5145s | 
 
 #### v0.5
+Įrangos spec.: Intel(R) Core(TM) i7-8550U CPU @ 1.80 GHz, 8 GB RAM, SSD
+
 Duomenų skaitymas iš failų
 | Įrašų kiekis | std::vector | std::deque | std::list |
 |--|--|--|--|
