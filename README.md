@@ -9,6 +9,7 @@ Programa, nuskaitanti vartotojo įvedamus arba iš failo nuskaitomus duomenis ir
 *  <br />[v0.3](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.3) Programa apskaiciuojanti galutinius rezultatus pagal vartotojo suvestus, perskaitytus iš failo arba atsitiktinai sugeneruotus duomenis, kurioje funkcijos ir struktūra yra laikomi atskiruose antraštiniuose failuose, taip pat panaudotos išimtys
 *  <br />[v0.4](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.4) Programa, kurioje yra pridėtas naujų duomenų failų generavimas ir šių duomenų rūšiavimas pagal galutinį balą į du atskirus .txt failus (jei galutinis balas >=5.0 duomenys išspausdinami į failą "kietiakai.txt", jei galutinis balas < 5.0 duomenys išspausdinami į failą "silpnieji.txt"). 
 *  <br /> [v0.5](https://github.com/gabrielyyytte/2uzd/releases/tag/v0.51) Šioje programos versijoje testuojami trys skirtingi konteineriai: std::vector <Student>, std::deque <Student> bei std::list <Student>, ir kokią įtaką jų pritaikymas daro programos veikimo spartai
+*  <br /> [v1.0](https://github.com/gabrielyyytte/2uzd/releases/tag/v1.0)
  
 ### Spartos analizė
 Įrangos spec.: Intel(R) Core(TM) i7-8550U CPU @ 1.80 GHz, 8 GB RAM, SSD
@@ -42,7 +43,7 @@ Duomenų skaitymas iš failų
 | 100000 |  1.80015s  | 2.18703s | 0.237966s |
 | 1000000 | 25.9591s | 24.8492s | 2.56215s | 
 | 10000000 | 215.4571s | 238.7514s | 29.8532s |
- 
+
 ## Vartotojo veiksmų seka:
 
 1.  Vartotojas pasirenka ar duomenys bus įvedami ar skaitomi iš failo, ar sugeneruojami 5 nauji duomenų failai
