@@ -13,30 +13,16 @@ Programa, nuskaitanti vartotojo įvedamus arba iš failo nuskaitomus duomenis ir
  
 #### v1.0
 Įrangos spec.: Intel(R) Core(TM) i7-8565U CPU @ 1.80 GHz, 16 GB RAM, SSD
-* v0.5 programavoje naudojau 2 strategiją, išbandžius 1 strategiją pamačiau, kad su ja programa veikia žymiai greičiau, tačiau nuo 1mln failo rūšiavimas greičiau vyksta naudojant 2 strategiją.
+* v0.5 programavoje naudojau 2 strategiją, išbandžius 1 strategiją pamačiau, kad su ja buvusia strategija programa veikia  greičiau.
 
-
-Duomenų skaitymas iš failų su std::vector
-| Įrašų kiekis | 2 strategija | 1 strategija | 
-|--|--|--|
-| 1000 | 0.0771263s | 0.0193223s | 
-| 10000 | 1.5453s | 0.193211s | 
-| 100000 | 10.9609s  | 2.14828s 
-| 1000000 | 54.6119s | 22.9748s | 
-| 10000000 | 391.104s | 237.657s | 
-
-
- Duomenų rūšiavimas į dvi kategorijas su std::vector
-| Įrašų kiekis |2 strategija | 1 strategija | 
-|--|--|--|
-| 1000 | 0.0019991s | 0.0038603s | 
-| 10000 | 0.0218584s | 0.0365537s | 
-| 100000 |  0.492139s  | 0.323463s | 
-| 1000000 | 2.82659s | 4.16703s | 
-| 10000000 | 31.3396s | 53.7386s | 
-
-* Algoritmus jau naudojau v0.5 versijoje todėl jų nebepridėjau.
-
+ Duomenų rūšiavimas į dvi kategorijas 
+| Įrašų kiekis | 2str / vector | 1str / vector | 2str / list | 1str / list  | 2str / deque | 1str / deque |
+|--|--|--|--|--|--|--|
+| 1000 | 0s | 0s | 0s | 0s | 0s | 0s |
+| 10000 | 0s | 0s | 0s | 0s | 0s | 0s |
+| 100000 |  0.031268 | 0.062446s| 0.046891s | 0.046863s | 0.156212s| 0.046902s |
+| 1000000 | 0.218707s | 0.517172s | 0.383676s | 0.751015s | 2.09384s | 0.603097s |
+| 10000000 | 3.3396s | 5.7386s | 4.18801s | 6.17353s | 22.547s | 7.57841s |
 
 #### v0.4
 Įrangos spec.: Intel(R) Core(TM) i7-8550U CPU @ 1.80 GHz, 8 GB RAM, SSD
@@ -91,3 +77,10 @@ Norint paleisti programos kodą reikia:
 * Įsidiegti C++ compiler
   <br />[GCC](https://gcc.gnu.org/)
 * Atsidaryti programos kodą viena iš parsisiųstų programų ir paleisti kodą.
+1. Jei norite generuoti 5 tekstinius failus, spauskite 5, jei norite duomenis ivesti pats arba nuskaityti is jau egzistuojančio failo, spauskite bet kurį kitą skaičių
+1.1 Paspaudus 5, turite pasirinkti konteinerį kurį naudosite, tai gali būti vector, list arba deque.
+1.1.1 Turite pasirinkti strategiją, gali būti naudojant du konteinerius arba vieną
+1.2 Paspaudus kitą skaičių, turite pasirinkti ar norite duomenis ivesti pats, ar nuskaityti iš tekstinio failo
+1.2.1 Pasirinkus rankinį įvedimą turite parašyti- studentų kiekį, kiekvieno vardą ir pavardę, ir pažymius kurios galite įrašyti pats arba generuoti juso automatiškai.
+2. Turite pasirinkti kaip skaičiuoti galutinį balą, naudojant vidurkį ar medianą.
+
